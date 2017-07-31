@@ -7,6 +7,7 @@
 
     define('CATALOG_IBLOCK_ID', 73);                  
     define('EXCHANGE_1C_USER', 4);
+    define('BONUS_PROGRAM', 17);
 
     function arshow($array, $adminCheck = false, $dieAfterArshow = false){
         global $USER;
@@ -423,9 +424,9 @@
     $e=$e[0];
 
 
-    $f=fopen($_SERVER["DOCUMENT_ROOT"].'/loge.txt','w');
-    fwrite($f,$e);
-    fclose($f);
+    //$f=fopen($_SERVER["DOCUMENT_ROOT"].'/loge.txt','w');
+    //fwrite($f,$e);
+    //fclose($f);
 
 
     function custom_mail($to, $subject, $message, $additionalHeaders = '')
